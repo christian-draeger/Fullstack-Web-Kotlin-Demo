@@ -5,6 +5,8 @@ junit = "4.13.2"
 kotlin = "2.0.0"
 spring-boot = "3.2.1"
 spring-dependency-management = "1.1.0"
+konform = "0.6.2"
+html-dsl = "0.11.0"
 
 [libraries]
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
@@ -14,6 +16,8 @@ androidx-lifecycle-viewmodel = { group = "org.jetbrains.androidx.lifecycle", nam
 androidx-lifecycle-runtime-compose = { group = "org.jetbrains.androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "androidx-lifecycle" }
 spring-boot-starter-web = { module = "org.springframework.boot:spring-boot-starter-web" }
 spring-boot-actuator-autoconfigure = { module = "org.springframework.boot:spring-boot-actuator-autoconfigure" }
+konform = { module = "io.konform:konform", version.ref = "konform" }
+htmlDsl = { module = "org.jetbrains.kotlinx:kotlinx-html", version.ref = "html-dsl" }
 
 [bundles]
 spring = ["spring-boot-starter-web", "spring-boot-actuator-autoconfigure"]
